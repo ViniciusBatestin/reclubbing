@@ -1,0 +1,16 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "hero hero hero hero hero hero hero hero hero hero hero hero";
+  height: 100vh;
+}
+
+.grid-area {
+  grid-area: nav;
+}
+
+.grid-area {
+grid-area: hero;
+}
