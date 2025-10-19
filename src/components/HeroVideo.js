@@ -5,9 +5,8 @@ import '../style/HeroVideo.css'
 
 const HeroVideo = ({videoSrc, poster, flyerImgSrc}) => {
   return (
-    <div className="hero-grid-container"
-    >
-      <video className="hero-video hero-grid-item"
+    <div className="hero-video-wraper">
+      <video className="hero-video"
         //standar video attr
         autoPlay
         loop
@@ -23,7 +22,7 @@ const HeroVideo = ({videoSrc, poster, flyerImgSrc}) => {
       </video>
 
       <img
-        className="hero-flyer-img hero-gri-item"
+      className="flyer-img"
         src={flyerImgSrc}
         alt="Event Flyer"
       />

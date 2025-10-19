@@ -7,10 +7,10 @@
   height: 100vh;
 }
 
-.grid-area {
+.nav-area {
   grid-area: nav;
 }
 
-.grid-area {
+.hero-area {
 grid-area: hero;
 }

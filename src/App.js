@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <HeroVideo
+      // className="hero-area"
       videoSrc={reclubbingVideo}
       flyerImgSrc={partyFlyer}
       />
