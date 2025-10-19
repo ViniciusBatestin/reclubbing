@@ -2,13 +2,13 @@ import React from "react";
 import HeroVideo from "./components/HeroVideo";
 
 import reclubbingVideo from "./assets/reclubbing_halloween.mp4"
-import partyFlyer from "./assets/halloween.jpeg"
+import partyFlyer from "./assets/halloween.png"
 
 function App() {
   return (
     <div className="App">
       <HeroVideo
-      // className="hero-area"
+      className="hero-area"
       videoSrc={reclubbingVideo}
       flyerImgSrc={partyFlyer}
       />

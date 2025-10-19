@@ -4,7 +4,7 @@
   grid-template-areas:
     "nav nav nav nav nav nav nav nav nav nav nav nav"
     "hero hero hero hero hero hero hero hero hero hero hero hero";
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .nav-area {

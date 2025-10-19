@@ -3,9 +3,14 @@ import '../style/HeroVideo.css'
 
 
 
-const HeroVideo = ({videoSrc, poster, flyerImgSrc}) => {
+const HeroVideo = ({videoSrc, poster, flyerImgSrc, className}) => {
+
+  const mobileBgStyle = {
+    '--mobile-hero-bg': `url(${flyerImgSrc})`
+  };
+
   return (
-    <div className="hero-video-wraper">
+    <div className={`hero-video-wraper ${className}`} style={mobileBgStyle}>
       <video className="hero-video"
         //standar video attr
         autoPlay
@@ -20,12 +25,6 @@ const HeroVideo = ({videoSrc, poster, flyerImgSrc}) => {
         {/* {Fallback content} */}
         Your browser does not support the video tag.
       </video>
-
-      <img
-      className="flyer-img"
-        src={flyerImgSrc}
-        alt="Event Flyer"
-      />
     </div>
   );
 };

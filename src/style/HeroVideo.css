@@ -13,3 +13,41 @@
   height: 100%;
   object-fit: cover;
 }
+
+.flyer-img {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* sizing */
+  width: 40%;
+  max-width: 768;
+  height: auto;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .hero-video {
+    display: none; /* Hide the video */
+  }
+
+  .hero-video-wraper {
+    /* 1. APPLY THE BACKGROUND IMAGE using the CSS Variable */
+    background-image: var(--mobile-hero-bg);
+
+    /* 2. MAKE IT COVER THE CONTAINER */
+    background-size: cover;
+
+    /* 3. CENTER THE IMAGE */
+    background-position: center;
+
+    /* 4. PREVENT REPEAT */
+    background-repeat: no-repeat;
+
+    /* 5. OPTIONAL: Fix for mobile height issues (if necessary for content under video) */
+    height: auto;
+    min-height: 100vh;
+  }
+}
