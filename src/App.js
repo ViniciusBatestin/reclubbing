@@ -3,6 +3,7 @@ import HeroVideo from "./components/HeroVideo";
 import NavBar from "./components/Navibar";
 
 import reclubbingVideo from "./assets/reclubbing_halloween.mp4"
+import reclubbingVideoMobile from "./assets/mobile-video.MP4"
 import partyFlyer from "./assets/halloween.png"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       className="hero-area"
       videoSrc={reclubbingVideo}
       flyerImgSrc={partyFlyer}
+      mobileVideoSrc={reclubbingVideoMobile}
       />
     </div>
   );

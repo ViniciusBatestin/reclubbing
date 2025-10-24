@@ -47,7 +47,7 @@
 }
 
 /* Mobile Menu Behavior */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   .menu-toggle {
     display: block;
@@ -62,7 +62,7 @@
     background-color: #111;
     flex-direction: column;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     max-height: 0;
