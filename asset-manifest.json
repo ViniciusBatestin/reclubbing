@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reclubbing/static/css/main.72c34268.css",
+    "main.js": "/reclubbing/static/js/main.060c8f18.js",
+    "static/js/453.566bcd59.chunk.js": "/reclubbing/static/js/453.566bcd59.chunk.js",
+    "static/media/mobile-video.MP4": "/reclubbing/static/media/mobile-video.5bd6debddea8c5f7b859.MP4",
+    "static/media/reclubbing_halloween.mp4": "/reclubbing/static/media/reclubbing_halloween.a465f0a62a264bf2622c.mp4",
+    "static/media/halloween.jpeg": "/reclubbing/static/media/halloween.e3fc3b039b3206650af2.jpeg",
+    "static/media/logo.jpg": "/reclubbing/static/media/logo.47a42baa25064010133f.jpg",
+    "static/media/instagram-svgrepo-com.svg": "/reclubbing/static/media/instagram-svgrepo-com.4742a457383927844364c54d5c3af4d7.svg",
+    "static/media/facebook-svgrepo-com.svg": "/reclubbing/static/media/facebook-svgrepo-com.d8e5e130f525c5b6c19aacbdb74830af.svg",
+    "index.html": "/reclubbing/index.html",
+    "main.72c34268.css.map": "/reclubbing/static/css/main.72c34268.css.map",
+    "main.060c8f18.js.map": "/reclubbing/static/js/main.060c8f18.js.map",
+    "453.566bcd59.chunk.js.map": "/reclubbing/static/js/453.566bcd59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72c34268.css",
+    "static/js/main.060c8f18.js"
+  ]
+}
