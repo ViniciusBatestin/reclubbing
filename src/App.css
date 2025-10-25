@@ -5,7 +5,8 @@
     "nav nav nav nav nav nav nav nav nav nav nav nav"
     "hero hero hero hero hero hero hero hero hero hero hero hero"
     "events events events events events events events events events events events events"
-    "about about about about about about about about about about about about";
+    "about about about about about about about about about about about about"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
   min-height: 100vh;
 }
 
@@ -23,4 +24,8 @@ grid-area: hero;
 
 .about-area {
   grid-area: about;
+}
+
+.footer-area {
+  grid-area: footer;
 }

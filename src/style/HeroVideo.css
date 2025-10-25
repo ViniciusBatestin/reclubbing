@@ -43,14 +43,15 @@
 }
 
 .ra-button {
-    padding: 10px 20px;
+    padding: 20px 10px;
     background-color: white;
     color: #ff5500;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: bold;
     border-radius: 3px;
     transition: background-color 0.3s ease;
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
@@ -69,7 +70,7 @@
         right: auto;
 
         /* Absolute Centering Trick */
-        top: 80%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%, -50%); /* Centers based on own size */
 

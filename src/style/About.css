@@ -13,13 +13,13 @@
     color: #ff5500;
 }
 
+
 .about-content-wrapper {
     /* 🛑 Centering and read-ability block 🛑 */
     max-width: 800px; /* Constrain width for better reading experience */
     margin: 0 auto; /* Center the wrapper block */
     text-align: left; /* Make the paragraph text left-aligned inside the wrapper */
-    line-height: 1.6;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 .about-content-wrapper p {
