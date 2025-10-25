@@ -1,0 +1,31 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "hero hero hero hero hero hero hero hero hero hero hero hero"
+    "events events events events events events events events events events events events"
+    "about about about about about about about about about about about about"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+  min-height: 100vh;
+}
+
+.nav-area {
+  grid-area: nav;
+}
+
+.hero-area {
+grid-area: hero;
+}
+
+.events-area {
+  grid-area: events;
+}
+
+.about-area {
+  grid-area: about;
+}
+
+.footer-area {
+  grid-area: footer;
+}
