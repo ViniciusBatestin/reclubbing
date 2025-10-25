@@ -3,7 +3,9 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
     "nav nav nav nav nav nav nav nav nav nav nav nav"
-    "hero hero hero hero hero hero hero hero hero hero hero hero";
+    "hero hero hero hero hero hero hero hero hero hero hero hero"
+    "events events events events events events events events events events events events"
+    "about about about about about about about about about about about about";
   min-height: 100vh;
 }
 
@@ -13,4 +15,12 @@
 
 .hero-area {
 grid-area: hero;
+}
+
+.events-area {
+  grid-area: events;
+}
+
+.about-area {
+  grid-area: about;
 }
